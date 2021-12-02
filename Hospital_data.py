@@ -44,8 +44,8 @@ result=cur.execute(show)
 for i in result:
     print(i)
 
-query2='''SELECT DISTINCT Country FROM Hospital_Data'''
-Countries = conn.execute(query2)
+sql2='''SELECT DISTINCT Country FROM Hospital_Data'''
+Countries = conn.execute(sql2)
 
 countrie = []
 for i in Countries:
